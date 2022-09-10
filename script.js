@@ -9,7 +9,7 @@ let dataStr;
 let userStr;
 let dataArr;
 let eleStr = ``;
-const apiPath = `http://api.quotable.io/random`;
+const apiPath = `https://quotable.io/random`;
 
 const fetchData = function (path) {
   return fetch(path)
